@@ -57,5 +57,5 @@ def clean_srt(input_path, output_path):
 
 if __name__ == '__main__':
     input_path = sys.argv[1] if len(sys.argv) > 1 else '/tmp/yobinori_subs/relativity.ja.srt'
-    output_path = sys.argv[2] if len(sys.argv) > 2 else '/Users/user/Documents/GitHub/物理学/02_claude/相対性理論/文字起こし_生データ.txt'
+    output_path = sys.argv[2] if len(sys.argv) > 2 else '/Users/user/Documents/GitHub/物理学_physics-study/02_claude/相対性理論/文字起こし_生データ.txt'
     clean_srt(input_path, output_path)
